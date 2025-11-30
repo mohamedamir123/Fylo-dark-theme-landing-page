@@ -1,23 +1,27 @@
 import { useState } from "react";
 import FeatureBox from "./FeatureBox";
+import IconOne from "../assets/images/icon-access-anywhere.svg";
+import IconTwo from "../assets/images/icon-security.svg";
+import IconThree from "../assets/images/icon-collaboration.svg";
+import IconFour from "../assets/images/icon-any-file.svg";
 function Features() {
     const [items, setItems] = useState([{
-        icon:'icon-access-anywhere.svg',
+        icon: IconOne,
         title:'Access Your File Anywhere',
         desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sed beatae, laboriosam enim voluptatum quia.',
     },
     {
-        icon: "icon-security.svg",
+        icon: IconTwo,
         title: "Security you can trust",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sed beatae, laboriosam enim voluptatum quia.",
     },
     {
-        icon: "icon-collaboration.svg",
+        icon: IconThree,
         title: "Real-time collaboration",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sed beatae, laboriosam enim voluptatum quia.",
     },
     {
-        icon: "icon-any-file.svg",
+        icon: IconFour,
         title: "Store any type of file",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sed beatae, laboriosam enim voluptatum quia.",
     },
