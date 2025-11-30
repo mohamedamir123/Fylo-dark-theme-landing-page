@@ -1,5 +1,6 @@
 import { useState,useEffect,useRef } from "react"
 import { Link } from "react-router-dom";
+import Logo from "../assets/images/logo.svg"
 
 function Header() {
     useEffect(() => {
@@ -21,7 +22,7 @@ function Header() {
             <header ref={headerRef} className="pt-[60px] fixed top-0 left-0 w-full z-50 transition-all duration-200">
                 <div className="container flex items-center justify-between  sm:gap-0 flex-col sm:flex-row ">
                     <Link to="/">
-                        <img src="/src/assets/images/logo.svg" alt="logo-img" className="w-[175px] h-[66px] object-contain"/>
+                        <img src= {Logo} alt="logo-img" className="w-[175px] h-[66px] object-contain"/>
                     </Link>
                     
                     <nav>
