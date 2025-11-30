@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaTwitter, FaInstagram, FaFacebookF} from "react-icons/fa"
 import IconPhone from "../assets/images/icon-phone.svg";
 import IconeEmail from "../assets/images/icon-email.svg";
+import IconLocation from "../assets/images/icon-location.svg";
 import FooterLogo from "../assets/images/logo.svg"
 function Footer() {
     const [contact, setContact] = useState([
@@ -35,7 +36,7 @@ function Footer() {
             <div className="mt-[30px] flex justify-between flex-wrap flex-col md:flex-row gap-[30px]">
               <div className="flex items-start gap-[15px] w-[340px] max-w-full">
                 <img
-                  src="/src/assets/images/icon-location.svg"
+                  src={IconLocation}
                   alt="location-img"
                   className="w-[18px] h-[18px] object-contain"
                 />
