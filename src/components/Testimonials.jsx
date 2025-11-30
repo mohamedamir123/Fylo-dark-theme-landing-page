@@ -2,6 +2,7 @@ import { useState } from "react";
 import TestimonialBox from "./TestimonialBox";
 import Profile1 from "../assets/images/profile-1.jpg"
 import Profile2 from "../assets/images/profile-2.jpg"
+import Profile3 from "../assets/images/profile-3.jpg"
 
 function Testimonials() {
     const [testData, setTestData] = useState([
@@ -22,7 +23,7 @@ function Testimonials() {
       {
         id: 3,
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aliquid. Cum quis animi repudiandae dolorum dolor qui, ducimus minus. Pariatur laboriosam quae numquam illo nisi quod! Quis, reprehenderit. Debitis, officiis!",
-        image: "profile-3.jpg",
+        image: Profile3,
         position: "Founder & CEO, Huddle",
         name: "Eman",
       },
